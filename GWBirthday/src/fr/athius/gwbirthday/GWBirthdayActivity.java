@@ -20,6 +20,7 @@
 package fr.athius.gwbirthday;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -39,6 +40,8 @@ public class GWBirthdayActivity extends Activity {
             public void onClick(View v) {
                 // Perform action on clicks
                 Toast.makeText(GWBirthdayActivity.this, "Alcoooooliiiiqquuuuee!!!!!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(GWBirthdayActivity.this, DefilementPoint.class);
+                startActivity(intent);
             }
         });
 //        TextView tv = new TextView(this);
