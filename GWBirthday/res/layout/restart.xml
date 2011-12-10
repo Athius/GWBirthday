@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/happy_birhtday_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.17"
+        android:background="@drawable/permis_cut"
+        android:gravity="center|center_horizontal"
+        android:shadowColor="@color/shadow"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:text="@string/happy_birthday"
+        android:textColor="@color/blue"
+        android:textSize="25sp" />
+
+</LinearLayout>

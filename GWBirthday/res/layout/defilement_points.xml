@@ -3,18 +3,132 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="75dp"
+        android:flipInterval="500" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="234dp"
+            android:gravity="center_horizontal"
+            android:text="@string/twelve"
+            android:textColor="@color/green"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/eleven"
+            android:textColor="@color/green"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/ten"
+            android:textColor="@color/green"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/nine"
+            android:textColor="@color/green"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/eight"
+            android:textColor="@color/orange"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/seven"
+            android:textColor="@color/orange"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/six"
+            android:textColor="@color/orange"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/five"
+            android:textColor="@color/orange"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/four"
+            android:textColor="@color/red"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/three"
+            android:textColor="@color/red"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/two"
+            android:textColor="@color/red"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/one"
+            android:textColor="@color/red"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textColor="@color/red"
+            android:textSize="100sp" />
+    </ViewFlipper>
+
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
         android:gravity="center" >
 
         <Button
             android:id="@+id/beer_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_vertical"
             android:background="@drawable/beer_button"
             android:padding="10dp" />
 
@@ -22,7 +136,6 @@
             android:id="@+id/speed_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_vertical"
             android:background="@drawable/speed_button"
             android:padding="10dp" />
 
@@ -30,7 +143,6 @@
             android:id="@+id/fire_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_vertical"
             android:background="@drawable/fire_button"
             android:padding="10dp" />
 
@@ -38,10 +150,8 @@
             android:id="@+id/stop_button"
             android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_vertical"
             android:background="@drawable/stop_button"
             android:padding="10dp" />
-        
     </LinearLayout>
 
 </LinearLayout>
